@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Add a gradient background to the entire page */
+      body {
+        background: linear-gradient(to right, #ff00ff, #0000ff);
+        color: #fff;
+      }
+
+      /* Style the pricing table */
+      .pricing-table {
+        text-align: center;
+        padding: 50px;
+      }
+
+      /* Style the pricing options */
+      .pricing-option {
+        background-color: #444;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #000;
+        margin: 20px 0;
+        padding: 30px;
+        transition: all 0.3s ease;
+      }
+
+      /* Style the pricing option headers */
+      .pricing-option h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      /* Style the pricing option details */
+      .pricing-option p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      /* Style the pricing option buttons */
+      .pricing-option button {
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 20px;
+        color: #333;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+      }
+
+      /* Add hover effects to the pricing options */
+      .pricing-option:hover {
+        background-color: #555;
+        cursor: pointer;
+        transform: translateY(-10px);
+      }
+
+      .pricing-option:hover button {
+        background-color: #333;
+        color: #fff;
+      }
+
+      /* Style the demo and book a meeting buttons */
+      .demo-button,
+      .book-meeting-button {
+        background-color: #ff00ff;
+        border: 2px solid #ff00ff;
+        border-radius: 20px;
+        color: #fff;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+      }
+
+      /* Add hover effects to the demo and book a meeting buttons */
+      .demo-button:hover,
+      .book-meeting-button:hover {
+        background-color: #0000ff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center" style="margin-bottom: 50px;">
+        Upscale Images in Bulk with ease
+      </h2>
+      <h4 class="text-center" style="margin-bottom: 50px;">
+        Choose a plan that fits your requirements the best
+      </h4>
+      <div class="row">
+        <!-- Option 1 -->
+        <div class="col-sm-4">
+          <div class="pricing-option">
+            <h3>Free</h3>
+            <p>$0/month</p>
+            <p>
+              45 Credits
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              15 GB Storage
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              15 GB Bandwidth, or
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              45 Upscale.media Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              13.5K Basic Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              No additional usage allowed over your monthly credits/storage.
+            </p>
+            <button class="demo-button">Sign up now</button>
+          </div>
+        </div>
+        <!-- Option 2 -->
+        <div class="col-sm-4">
+          <div class="pricing-option">
+            <h3>Starter</h3>
+            <p>$40</p>
+            <p>$29/month</p>
+            <p>
+              300 Credits
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              100 GB Storage
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              100 GB Bandwidth, or
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              300 Upscale.media Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              90K Basic Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              Additional usage allowed over your monthly credits is charged at $0.4 and storage is charged at $0.4 Overage price
+            </p>
+            <button class="book-meeting-button">Book a Meeting</button>
+          </div>
+        </div>
+        <!-- Option 3 -->
+        <div class="col-sm-4">
+          <div class="pricing-option">
+            <h3>Basic</h3>
+            <p>$120</p>
+            <p>$89/month</p>
+            <p>
+              1200 Credits
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              400 GB Storage
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              400 GB Bandwidth, or
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              1200 Upscale.media Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              360K Basic Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              Most Popular
+            </p>
+            <p>
+              Additional usage allowed over your monthly credits is charged at
+              $0.4 and storage is charged at $0.4 Overage price
+            </p>
+            <button class="book-meeting-button">Book a Meeting</button>
+          </div>
+        </div>
+        <!-- Option 4 -->
+        <div class="col-sm-4">
+          <div class="pricing-option">
+            <h3>Premium</h3>
+            <p>$350</p>
+            <p>$299/month</p>
+            <p>
+              5000 Credits
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              1.5 TB Storage
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              1.6 TB Bandwidth, or
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              5000 Upscale.media Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              1.5M Basic Transformations
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </p>
+            <p>
+              Additional usage allowed over your monthly credits is charged at
+              $0.4 and storage is charged at $0.4 Overage price
+            </p>
+            <button class="book-meeting-button">Book a Meeting</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
